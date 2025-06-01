@@ -1,0 +1,2 @@
+
+console.log('YGH App Loaded.');

@@ -19,15 +19,36 @@
     <h1>Welcome to YGH</h1>
     <p>Fresh insights, knowledge, and inspiration delivered to you.</p>
   </header>
+
   <main>
     <article>
       <h2>Our Latest Article</h2>
       <p>Stay tuned for our latest updates and inspiring stories.</p>
     </article>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name:<br><input type="text" name="name" required></label>
+        </p>
+        <p>
+          <label>Email:<br><input type="email" name="email" required></label>
+        </p>
+        <p>
+          <label>Message:<br><textarea name="message" required></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send Message</button>
+        </p>
+      </form>
+    </section>
   </main>
+
   <footer>
     <p>&copy; 2025 YGH. All rights reserved.</p>
   </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
